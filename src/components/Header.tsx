@@ -72,7 +72,7 @@ export const Header = ({ info }: HeaderProps) => {
               <div className="relative w-72 h-72 mx-auto">
                 <div className="absolute inset-0 bg-emerald-400/20 rounded-full blur-2xl"></div>
                 <img
-                  src="/profile-photo.png"
+                  src="/portfolio/profile-photo.png"
                   alt={info.name}
                   className="relative w-full h-full rounded-full object-cover border-4 border-white/10"
                 />
