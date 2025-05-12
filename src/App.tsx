@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import { useReactToPrint } from 'react-to-print';
 import { Header } from './components/Header';
 import { Experience } from './components/Experience';
@@ -62,7 +62,7 @@ const App = () => {
 
       <footer className="bg-emerald-900 py-12">
         <div className="container mx-auto px-4 text-center">
-          <p className="text-emerald-200"> {new Date().getFullYear()} Mon Portfolio. Tous droits réservés.</p>
+          <p className="text-emerald-200"> {new Date().getFullYear()}</p>
           <div className="flex justify-center space-x-6 mt-4">
             <a href="#" className="text-emerald-300 hover:text-white">
               <span className="sr-only">GitHub</span>

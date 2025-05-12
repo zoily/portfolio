@@ -21,7 +21,7 @@ export interface PersonalInfo {
   name: string;
   title: string;
   location: string;
-  phone: string;
+  phone?: string;
   email: string;
   linkedin: string;
   github: string;

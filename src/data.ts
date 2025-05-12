@@ -4,7 +4,7 @@ export const personalInfo: PersonalInfo = {
   name: "Loïc MEIGNIER",
   title: "Développeur Full Stack",
   location: "Dijon, FR",
-  phone: "06 79 05 11 07",
+  phone: undefined,
   email: "loicmeignier@gmail.com",
   linkedin: "linkedin.com/in/loicmeignier",
   github: "zoily"

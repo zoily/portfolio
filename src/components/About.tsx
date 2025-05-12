@@ -2,7 +2,7 @@
 export function About() {
     return (
         <section id="about" className="mb-16 print:mb-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 print:grid-cols-1 gap-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 print:grid-cols-1 gap-8">
             <div>
               <h2 className="text-3xl font-bold mb-6 print:mb-3 print:text-xl">A propos de moi</h2>
               <p className="text-lg text-white/80 mb-8">

@@ -6,6 +6,7 @@
 /* Styles d'impression */
 @media print {
   html {
+    font-family: 'Arial', sans-serif;
     font-size: 75%; /* Réduit la taille de base de la police */
   }
   

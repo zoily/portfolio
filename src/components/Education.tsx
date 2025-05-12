@@ -14,7 +14,7 @@ export const Education = ({ education, index }: EducationProps) => {
       transition={{ duration: 0.5, delay: index * 0.1 }}
       className="flex-1 bg-white/95 hover:bg-white rounded-xl shadow-lg hover:shadow-xl print:shadow-none screen:transition-all p-4 sm:p-8 mb-6 sm:mb-8 print:p-4"
     >
-      <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-6 mb-4">
+      <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-6 mb-3">
         <div className="flex-1">
           <h3 className="text-xl sm:text-2xl print:text-lg font-semibold text-emerald-800">
             {education.degree}
