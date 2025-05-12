@@ -2,3 +2,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Styles d'impression */
+@media print {
+  html {
+    font-size: 75%; /* Réduit la taille de base de la police */
+  }
+  
+  body {
+    line-height: 1.4;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  
+  h1 {
+    font-size: 1.5rem; /* équivalent à text-2xl */
+    line-height: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.25rem; /* équivalent à text-xl */
+    line-height: 1.75rem;
+  }
+  
+  p, li, a, span {
+    font-size: 0.875rem; /* équivalent à text-sm */
+    line-height: 1.25rem;
+  }
+  
+  /* Assurez-vous que les couleurs s'impriment correctement */
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}

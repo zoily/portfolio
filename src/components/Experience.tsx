@@ -12,16 +12,16 @@ export const Experience = ({ experience, index}: ExperienceProps) => {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: index * 0.1 }}
-      className="relative pl-8 sm:pl-32 pt-6 group"
+      className="relative pl-8 sm:pl-32 print:pl-8 pt-6 print:pt-2 group"
     >
       {/* Timeline line */}
-      <div className={`absolute left-[10px] sm:left-[86px] top-0 h-full w-0.5 bg-emerald-100 group-hover:bg-emerald-200 transition-colors`} />
+      <div className={`absolute left-[10px] sm:left-[86px] print:left-[10px] top-0 h-full w-0.5 bg-emerald-100 group-hover:bg-emerald-200 transition-colors`} />
 
       {/* Timeline dot */}
-      <div className="absolute left-0 top-1/2 sm:left-[77px] top-[28px] h-5 w-5 rounded-full border-4 border-emerald-400 bg-white shadow group-hover:border-emerald-500 transition-colors" />
+      <div className="absolute left-0 top-1/2 sm:left-[77px] print:left-1 top-[28px] h-5 w-5 rounded-full border-4 border-emerald-400 bg-white screen:shadow group-hover:border-emerald-500 transition-colors" />
 
       {/* Content */}
-      <div className="bg-white/95 hover:bg-white rounded-xl shadow-lg hover:shadow-xl transition-all p-4 sm:p-6">
+      <div className="bg-white/95 hover:bg-white rounded-xl print:shadow-none screen:shadow-lg hover:shadow-xl transition-all p-4 sm:p-6 print:p-2">
         <div className="flex flex-col gap-4">
           <div>
             <h3 className="text-xl font-semibold text-emerald-800 mb-1">

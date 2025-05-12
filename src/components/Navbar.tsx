@@ -1,13 +1,18 @@
-import { personalInfo } from "../data";
 import { useState } from "react";
+import { personalInfo } from "../data";
 import { motion, AnimatePresence } from 'framer-motion';
 
-export function Navbar() {
+export interface NavbarProps {
+    onPrint: () => void;
+}
+
+export function Navbar({ onPrint }: NavbarProps) {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
   
     const toggleMenu = () => {
       setIsMenuOpen(!isMenuOpen);
     };
+  
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-emerald-800/90 backdrop-blur-sm">
         <div className="container mx-auto px-4 max-w-6xl">
@@ -16,6 +21,12 @@ export function Navbar() {
             
             {/* Desktop Menu */}
             <div className="hidden md:flex items-center gap-8">
+              <a 
+                onClick={onPrint}
+                className="fixed top-4 right-4 bg-white text-emerald-800 px-4 py-2 rounded-lg shadow-lg hover:bg-emerald-100 transition-colors"
+              >
+                Imprimer CV
+              </a>
               <div className="flex gap-4">
                 <a href={`https://${personalInfo.linkedin}`} target="_blank" rel="noopener noreferrer" className="p-2 bg-white/10 rounded-full hover:bg-white/20 transition-colors">
                   <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">

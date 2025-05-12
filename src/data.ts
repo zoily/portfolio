@@ -2,7 +2,7 @@ import { Experience, Education, PersonalInfo } from './types';
 
 export const personalInfo: PersonalInfo = {
   name: "Loïc MEIGNIER",
-  title: "Développeur web freelance",
+  title: "Développeur Full Stack",
   location: "Dijon, FR",
   phone: "06 79 05 11 07",
   email: "loicmeignier@gmail.com",
