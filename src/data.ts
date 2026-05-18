@@ -2,26 +2,36 @@ import { Experience, Education, PersonalInfo } from './types';
 
 export const personalInfo: PersonalInfo = {
   name: "Loïc MEIGNIER",
-  title: "Développeur web freelance",
+  title: "Développeur Full Stack",
   location: "Dijon, FR",
-  phone: "06 79 05 11 07",
-  email: "loicmeignier@gmail.com",
-  linkedin: "linkedin.com/in/loicmeignier"
+  phone: undefined,
+  email: undefined,
+  linkedin: "linkedin.com/in/loicmeignier",
+  github: "zoily"
 };
 
 export const experiences: Experience[] = [
   {
-    startDate: "2024-02",
-    endDate: "2024-04",
+    startDate: "mai 2025",
+    endDate: "Aujourd'hui",
+    title: "Logiciel de pilotage et de supervision",
+    company: "Savoye",
+    location: "Longvic, FR",
+    description: "Création d'un prototype de logiciel de pilotage puis édition des modules de l'outil pour la gestion et la supervision de warehouse (WES)",
+    technologies: ["Angular", "Java 17", "IntelliJ", "LMStudio", "Maven", "Spring", "Bitbucket", "Jenkins", "Jira"]
+  },
+  {
+    startDate: "Janvier 2024",
+    endDate: "Décembre 2024",
     title: "Module de gestion RH",
     company: "GIP CPage/Atol",
     location: "Dijon, FR",
     description: "Création d'un outil de gestion de ticket intégré au produit principal, TMA des différentes solutions proposées par le pôle",
-    technologies: ["VS Code", "IntelliJ", "Eclipse", "Maven", "Spring", "Java 8", "GitLab (CI/CD)", "Jenkins", "Jira", "Ottama"]
+    technologies: ["VS Code", "IntelliJ", "Eclipse", "Maven", "Spring", "Java 8", "GitLab (CI/CD)", "Jenkins", "Jira"]
   },
   {
-    startDate: "2022-07",
-    endDate: "2023-09",
+    startDate: "Juillet 2022",
+    endDate: "Septembre 2023",
     title: "Design system",
     company: "Enedis",
     location: "Lyon, FR",
@@ -29,17 +39,17 @@ export const experiences: Experience[] = [
     technologies: ["Lit", "storybook", "web components", "atomic design", "github", "Figma"]
   },
   {
-    startDate: "2021-06",
-    endDate: "2022-06",
+    startDate: "Juin 2021",
+    endDate: "Juin 2022",
     title: "Solution de gestion de lits hospitaliers",
     company: "Maincare",
     location: "Dijon, FR",
     description: "Développement d'un outil web de cartographie de lits hospitaliers",
-    technologies: ["Vue.js", "Vuen", "Typescript", "JavaEE", "Maven", "GitLab"]
+    technologies: ["Vue.js", "Vuex", "Typescript", "JavaEE", "Maven", "GitLab"]
   },
   {
-    startDate: "2019-11",
-    endDate: "2021-05",
+    startDate: "Novembre 2019",
+    endDate: "Juin 2021",
     title: "Payment Tracker",
     company: "iBanFirst",
     location: "Dijon, FR",
@@ -47,8 +57,8 @@ export const experiences: Experience[] = [
     technologies: ["React.js", "Redux", "Storybook", "GitLab", "PHP", "Solid"]
   },
   {
-    startDate: "2018-11",
-    endDate: "2019-11",
+    startDate: "Novembre 2018",
+    endDate: "Novembre 2019",
     title: "Interfaces logicielles d'un outil de santé",
     company: "GIP CPage/Atleca",
     location: "Dijon, FR",
@@ -56,8 +66,8 @@ export const experiences: Experience[] = [
     technologies: ["Java EE", "Web Services", "Maven", "SQL"]
   },
   {
-    startDate: "2015-06",
-    endDate: "2018-11",
+    startDate: "Février 2016",
+    endDate: "Novembre 2018",
     title: "Geolys",
     company: "TEVOLYS",
     location: "Dijon, FR",
@@ -65,8 +75,8 @@ export const experiences: Experience[] = [
     technologies: ["C#", "Azure", "Vue.js", "SharePoint", "NoSQL"]
   },
   {
-    startDate: "2012-06",
-    endDate: "2015-02",
+    startDate: "Juin 2013",
+    endDate: "Février 2016",
     title: "Outil de gestion agricole",
     company: "Estalis",
     location: "Dijon, FR",
@@ -80,7 +90,7 @@ export const education: Education[] = [
     startDate: "2013",
     endDate: "2015",
     degree: "Titre d'expert en ingénierie (bac+5)",
-    school: "CUCDB",
+    school: "CUCDB - DIIAGE",
     location: "Dijon, FR",
     description: "Titre d'Expert en Ingénierie Informatique Appliquée"
   },
