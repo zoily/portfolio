@@ -13,12 +13,12 @@ export const personalInfo: PersonalInfo = {
 export const experiences: Experience[] = [
   {
     startDate: "mai 2025",
-    endDate: "Aujourd'hui",
+    endDate: "Juillet 2026",
     title: "Logiciel de pilotage et de supervision",
     company: "Savoye",
     location: "Longvic, FR",
     description: "Création d'un prototype de logiciel de pilotage puis édition des modules de l'outil pour la gestion et la supervision de warehouse (WES)",
-    technologies: ["Angular", "Java 17", "IntelliJ", "LMStudio", "Maven", "Spring", "Bitbucket", "Jenkins", "Jira"]
+    technologies: ["Angular", "Java 17", "IntelliJ", "Docker", "LMStudio", "Maven", "Spring", "Bitbucket", "Jenkins", "Jira"]
   },
   {
     startDate: "Janvier 2024",
@@ -36,7 +36,7 @@ export const experiences: Experience[] = [
     company: "Enedis",
     location: "Lyon, FR",
     description: "Développement d'un design system en Lit (web components)",
-    technologies: ["Lit", "storybook", "web components", "atomic design", "github", "Figma"]
+    technologies: ["Lit", "Storybook", "Web components", "atomic design", "Github Actions", "Docker", "Github", "Figma", "Artifactory"]
   },
   {
     startDate: "Juin 2021",
@@ -45,7 +45,7 @@ export const experiences: Experience[] = [
     company: "Maincare",
     location: "Dijon, FR",
     description: "Développement d'un outil web de cartographie de lits hospitaliers",
-    technologies: ["Vue.js", "Vuex", "Typescript", "JavaEE", "Maven", "GitLab"]
+    technologies: ["Vue.js", "Vuex", "Typescript", "JavaEE", "Maven", "Docker", "GitLab"]
   },
   {
     startDate: "Novembre 2019",
@@ -54,7 +54,7 @@ export const experiences: Experience[] = [
     company: "iBanFirst",
     location: "Dijon, FR",
     description: "Création d'un outil web de tracking de paiements (Component Driven Development), TMA du produit principale",
-    technologies: ["React.js", "Redux", "Storybook", "GitLab", "PHP", "Solid"]
+    technologies: ["React.js", "Redux", "Storybook", "GitLab (CI/CD)", "Docker", "Solid", "PHP"]
   },
   {
     startDate: "Novembre 2018",
@@ -63,7 +63,7 @@ export const experiences: Experience[] = [
     company: "TEVOLYS",
     location: "Dijon, FR",
     description: "Participation à l'élaboration d'un logiciel de smart office",
-    technologies: ["C#", "Azure", "Vue.js", "SharePoint", "NoSQL"]
+    technologies: ["C#", "Azure", "Azure DevOps", "Vue.js", "SharePoint", "NoSQL"]
   },
   {
     startDate: "Février 2016",
